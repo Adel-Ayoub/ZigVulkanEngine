@@ -1,14 +1,14 @@
-# ZigVulkan
+# ZigVulkanEngine
 ## A 3D game engine built with Zig and Vulkan
 
 > **Work in Progress** - This project is currently under active development.
 
-## How to Install ZigVulkan
+## How to Install ZigVulkanEngine
 
 ### From Source
 ```bash
-git clone https://github.com/Adel-Ayoub/ZigVulkan.git
-cd ZigVulkan
+git clone https://github.com/Adel-Ayoub/ZigVulkanEngine.git
+cd ZigVulkanEngine
 zig build run
 ```
 
