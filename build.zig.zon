@@ -1,0 +1,29 @@
+.{
+    .name = .game_engine,
+    .version = "0.0.0",
+    .fingerprint = 0x959db7458bc81417,
+    .minimum_zig_version = "0.15.0-dev.631+9a3540d61",
+    .dependencies = .{
+        .sdl3 = .{
+            .url = "git+https://github.com/Gota7/zig-sdl3?ref=master#c83e8710a7ed9ccd25740a4b590fce25cb1a1c06",
+            .hash = "sdl3-0.0.1-NmT1Q4sEHABxbjr2358rVpTQaR290WqUZREGNvPc_yj4",
+        },
+        .zigglgen = .{
+            .url = "git+https://github.com/castholm/zigglgen.git#d5f381759825ee0bac29bc294d47aa05be4ab7b5",
+            .hash = "zigglgen-0.4.0-bmyqLX_gLQDFXilQ5VQ9fJeOHKU1RFrggOzRqTGBX79W",
+        },
+        .numz = .{
+            .url = "git+https://github.com/HaraldWik/numz#4dc6488aefee019d90056d724f88f8f48e5720db",
+            .hash = "numz-0.0.0-oTBeDDJKAADfBORjX83KjwR2Av9W3LyjCU4zlymx_LyT",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        // For example...
+        //"LICENSE",
+        //"README.md",
+    },
+}
